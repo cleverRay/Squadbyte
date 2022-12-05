@@ -1,0 +1,14 @@
+
+.nav-link{
+  font-family: 'Roboto', sans-serif;
+  color: #010947 !important;
+}
+
+.btn-flat {
+    background-color:#0000FF;
+    color: white;
+  }
+  .btn-xxl {
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+  }
