@@ -3,7 +3,7 @@ import '../styles/MainContent.css'
 import SquadVideo from '../assests/video/hero-vid-final-RF26.mp4'
 import SocialProofImg from '../assests/images/Ellipse.png'
 import Display from '../assests/images/image-display.png'
-import DisplayFeature from '../assests/images/image-display-2.png'
+//import DisplayFeature from '../assests/images/image-display-2.png'
 import Review from '../assests/images/Ellipse-img.png'
 
 import {Button, Container,Row, Col, Nav, Navbar, NavDropdown} from 'react-bootstrap';
@@ -108,7 +108,7 @@ function MainContent() {
                     </Col>
                     <Col>
                     <div>
-                        <img className='width-image' src={DisplayFeature}/>
+                        <img className='width-image' />
                     </div>
                     </Col>
                 </Row>
