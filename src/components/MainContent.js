@@ -60,7 +60,7 @@ function MainContent() {
                 <Row>
                     <Col>
                     <div>
-                        <img src={Display}></img>
+                        <img src={Display} className='width-image'/>
                     </div>
                     </Col>
                     <Col>
@@ -108,7 +108,7 @@ function MainContent() {
                     </Col>
                     <Col>
                     <div>
-                        <img width="816" src={DisplayFeature}></img>
+                        <img className='width-image' src={DisplayFeature}/>
                     </div>
                     </Col>
                 </Row>

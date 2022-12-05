@@ -86,6 +86,11 @@ color: #000000;
 .boxed {
     border: 1px solid #A7A7FF ;
 }
+
+
+.width-image {
+    width: 700;
+}
 /* 
 .hero-text {
 
