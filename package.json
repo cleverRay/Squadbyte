@@ -2,7 +2,7 @@
   "name": "squadbyte",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://{CleverRay}.github.io",
+  "homepage": "https://{CleverRay}.github.io/{quadbyte}",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
