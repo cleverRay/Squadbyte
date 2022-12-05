@@ -136,7 +136,7 @@ function MainContent() {
                                 </Col>
                                 <Col sm={10}>
                                 <p>Varelas</p>
-                                <p>@varel</p>
+                                <p>@varels</p>
                                 </Col>
                             </Row>
                         </div>
