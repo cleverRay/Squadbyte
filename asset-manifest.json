@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Squadbyte/static/css/main.6474ce25.css",
-    "main.js": "/Squadbyte/static/js/main.e4bb6ecd.js",
+    "main.css": "/Squadbyte/static/css/main.590c95cd.css",
+    "main.js": "/Squadbyte/static/js/main.0ca9df53.js",
     "static/js/787.dcdbea49.chunk.js": "/Squadbyte/static/js/787.dcdbea49.chunk.js",
     "static/media/hero-vid-final-RF26.mp4": "/Squadbyte/static/media/hero-vid-final-RF26.e8090b1a788f122a7f23.mp4",
     "static/media/image-display-2.png": "/Squadbyte/static/media/image-display-2.9693d01bec19b2252d62.png",
     "static/media/image-display.png": "/Squadbyte/static/media/image-display.47eefd49ed8c608461c9.png",
     "static/media/Ellipse.png": "/Squadbyte/static/media/Ellipse.5dc3be3a21582ced4b4b.png",
     "index.html": "/Squadbyte/index.html",
-    "main.6474ce25.css.map": "/Squadbyte/static/css/main.6474ce25.css.map",
-    "main.e4bb6ecd.js.map": "/Squadbyte/static/js/main.e4bb6ecd.js.map",
+    "main.590c95cd.css.map": "/Squadbyte/static/css/main.590c95cd.css.map",
+    "main.0ca9df53.js.map": "/Squadbyte/static/js/main.0ca9df53.js.map",
     "787.dcdbea49.chunk.js.map": "/Squadbyte/static/js/787.dcdbea49.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6474ce25.css",
-    "static/js/main.e4bb6ecd.js"
+    "static/css/main.590c95cd.css",
+    "static/js/main.0ca9df53.js"
   ]
 }
