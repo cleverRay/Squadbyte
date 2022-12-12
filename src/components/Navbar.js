@@ -3,7 +3,7 @@ import Logo from '../assests/images/Logo.png';
 import '../styles/Navbar.css';
 
 import {Button, Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function CollapsibleExample() {

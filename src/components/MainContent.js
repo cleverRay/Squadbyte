@@ -1,17 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/MainContent.css'
 import SquadVideo from '../assests/video/hero-vid-final-RF26.mp4'
 import SocialProofImg from '../assests/images/Ellipse.png'
 import Display from '../assests/images/image-display.png'
-//import DisplayFeature from '../assests/images/image-display-2.png'
+import DisplayFeature from '../assests/images/image-display-2.png'
 import Review from '../assests/images/Ellipse-img.png'
 
-import {Button, Container,Row, Col, Nav, Navbar, NavDropdown} from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { StarFill } from 'react-bootstrap-icons'
+import {Button, Container,Row, Col, ButtonGroup, ToggleButton} from 'react-bootstrap';
+
+import Pricing from './Pricing';
+import Pricingcard from './Pricingcard';
+import Pricingcarddata from './Pricingcarddata';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 
 function MainContent() {
-    
 
+    let PricingStorage = Pricingcarddata.map( (prices) => {
+        return <Pricingcard 
+                key={prices.id}
+                prices={prices}/>
+    })
+
+    const [pricingToggle, setPricingToggle] = useState(true)
+
+    
     return(
         <body>
             <Container>
@@ -38,7 +51,7 @@ function MainContent() {
                 <Row>
                     <Col className='text-center'>
                     <div >
-                        <img className='social-proof-img' src={SocialProofImg}></img>
+                        <img className='social-proof-img' src={SocialProofImg} alt=""></img>
                         <h4>Claudia Sonia</h4>
                         <h5>creative designer</h5>
                     </div>
@@ -56,28 +69,29 @@ function MainContent() {
                     </Col>
                 </Row>
             </div>
+            
             <div>
                 <Row>
-                    <Col>
-                    <div>
-                        <img src={Display} className='width-image'/>
+                    <Col >
+                    <div >
+                        <img width="700" src={Display} alt="" />
                     </div>
                     </Col>
                     <Col>
-                    <h2>The best builder for non-techies</h2>
-                    <p>Intuitive and easy-to-use, yet very powerful & fast</p>
+                    <h2 style={{fontWeight: "bold"}}>The best builder for non-techies</h2>
+                    <p className='mt-4'>Intuitive and easy-to-use, yet very powerful & fast</p>
 
                     <div>
-                        <Row className=''>
+                        <Row className='mt-4'>
                         <Col>
-                            <ul className='bullet-ul'>
+                            <ul>
                                 <li>Drag & Drop builder</li>
                                 <li>Global Colors & Fonts</li>
                                 <li>Fully Responsive</li>    
                             </ul>
                         </Col>
                         <Col>
-                            <ul className='bullet-ul'>
+                            <ul>
                                 <li>Visual editing (no code)</li>
                                 <li>36+ Powerful Elements</li>
                                 <li>Clean code & optimised</li>    
@@ -86,7 +100,7 @@ function MainContent() {
                         </Row>
                     </div>
                     <div>
-                    <Button>See why it is the best</Button>
+                    <Button className='btn-lg btn-flat-B' variant="outline-primary">See why it is the best</Button>
                     </div>
                     </Col>
                 </Row>
@@ -94,7 +108,7 @@ function MainContent() {
             <div className='div-display'>
                 <Row>
                     <Col>
-                    <h2>100+ design templates,beautiful & mobile perfect</h2>
+                    <h2 style={{fontWeight: "bold"}}>100+ design templates,beautiful & mobile perfect</h2>
                     <ul className='bullet-ul-li'>
                         <li>Business</li>
                         <li>Sport & Travel</li>
@@ -103,90 +117,114 @@ function MainContent() {
                         <li>Health & Beauty</li>
                     </ul>
                     <div className='btn-display'>
-                    <Button>View all design features</Button>
+                    
+                    <Button className='btn-lg p-3 btn-flat'>View all design features</Button>
                     </div>
                     </Col>
                     <Col>
                     <div>
-                        <img className='width-image' />
+                        <img width="700" src={DisplayFeature} alt=""/>
                     </div>
                     </Col>
                 </Row>
             </div>
-
-           
             </Container>
+
             <div className='div-review'>
-                <Container style={{margin:'100px'}}>
+                <Container>
                 <h2>The reviews are in!</h2>
                 <p>Be it great or less stellar, these reviews are 100% honest and real... just like us</p>
-                <div >
-                    <Row className='text-c' >
-                        
-                        <Col md className='p-2'>
-                        <div className='boxed'>
-                            <h5>Great alternative to Elementor & Divi builders</h5>
-                            <p>
+                
+                    <Row className='mt-5'>
+                        <Col md className='m-2 p-5 boxed'>
+
+                            <div className='star-icon'>
+                            <StarFill/> <StarFill/> <StarFill/> <StarFill/> <StarFill/>
+                            </div>
+
+                            <p className='review-header'>Great alternative to Elementor & Divi builders</p>
+                            <p className='review-summary '>
                             This Plugin uses an easy and beginner friendly drag-and-drop interface builder, 
                             but it provides you with the right options to continue working if your website gets bigger.
                             </p>
                             <Row >
-                                <Col sm={2}>
-                                <img src={Review} style={{width:'50px'}}></img>
+                                <Col md={2}>
+                                <img src={Review} alt=""></img>
                                 </Col>
-                                <Col sm={10}>
-                                <p>Varelas</p>
-                                <p>@varels</p>
+                                <Col>
+                                <p className='review-title'>Varelas</p>
+                                <p className='review-name'>@varels</p>
                                 </Col>
                             </Row>
-                        </div>
+                        
                         </Col>
 
-                        <Col md className='p-2'>
-                        <div className='boxed'>
-                            <h5>Great alternative to Elementor & Divi builders</h5>
-                            <p>
+                        <Col md className='m-2 p-5 boxed '>
+
+                            <div className='star-icon'>
+                            <StarFill/> <StarFill/> <StarFill/> <StarFill/> <StarFill/>
+                            </div>
+
+                            <p className='review-header'>Great alternative to Elementor & Divi builders</p>
+                            <p className='review-summary'>
                             This Plugin uses an easy and beginner friendly drag-and-drop interface builder, 
                             but it provides you with the right options to continue working if your website gets bigger.
                             </p>
                             <Row >
-                                <Col sm={2}>
-                                <img src={Review}></img>
+                                <Col md={2}>
+                                <img src={Review} alt=""></img>
                                 </Col>
-                                <Col sm={10}>
-                                <p>Varelas</p>
-                                <p>@varelas</p>
+                                <Col>
+                                <p className='review-title'>Varelas</p>
+                                <p className='review-name'>@varels</p>
                                 </Col>
                             </Row>
-                        </div>
+                        
                         </Col>
-                        <Col md className='p-2'>
-                        <div className='boxed'>
-                            <h5>Great alternative to Elementor & Divi builders</h5>
-                            <p>
+
+                        <Col md className='m-2 p-5 boxed'>
+
+                            <div className='star-icon'>
+                            <StarFill/> <StarFill/> <StarFill/> <StarFill/> <StarFill/>
+                            </div>
+
+                            <p className='review-header'>Great alternative to Elementor & Divi builders</p>
+                            <p className='review-summary'>
                             This Plugin uses an easy and beginner friendly drag-and-drop interface builder, 
                             but it provides you with the right options to continue working if your website gets bigger.
                             </p>
-                            <Row>
-                                <Col sm={2}>
-                                <img src={Review}></img>
+                            <Row >
+                                <Col md={2}>
+                                <img src={Review} alt=""></img>
                                 </Col>
-                                <Col sm={8}>
-                                <p>Varelas</p>
-                                <p>@varelas</p>
+                                <Col>
+                                <p className='review-title'>Varelas</p>
+                                <p className='review-name'>@varels</p>
                                 </Col>
                             </Row>
-                        </div>
-                        </Col>
-                        
-
-                        
-                        
-                        
+                        </Col>   
                     </Row>
-                </div>
                 </Container>
             </div>
+            <Container>
+                <p className='text-sub'>Start building your dream website</p>
+                <p className='text-sub-p'>Get started with Squadbyte Free today, no credit card needed... or step up to PRO</p>
+               
+                {/* <div className='button-placing d-flex justify-content-center'> 
+                    <Button className='w-25 p-3 fs-4 rounded-pill btn-flat ' type='radio'>Lifetime</Button>
+                    <Button className='w-25 p-3 fs-4  rounded-pill btn-flat-C button-placing-B' >Yearly</Button>
+                </div> */}
+
+                <Pricing/>
+                <div className='d-flex justify-content-center'>
+                {PricingStorage}
+                </div>
+
+            </Container>
+            <Container fluid className='bar-coloor'>
+            </Container>
+            
+          
         </body>
     )
 
