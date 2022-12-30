@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Squadbyte/static/css/main.f24434cb.css",
-    "main.js": "/Squadbyte/static/js/main.ffcbd2f9.js",
+    "main.js": "/Squadbyte/static/js/main.b22f6822.js",
     "static/js/787.dcdbea49.chunk.js": "/Squadbyte/static/js/787.dcdbea49.chunk.js",
     "static/media/hero-vid-final-RF26.mp4": "/Squadbyte/static/media/hero-vid-final-RF26.e8090b1a788f122a7f23.mp4",
     "static/media/editor.mp4": "/Squadbyte/static/media/editor.0514b5d08e08997c696b.mp4",
@@ -12,11 +12,11 @@
     "static/media/Procurement-hero.png": "/Squadbyte/static/media/Procurement-hero.5c2c5e3d9d608f9cb70a.png",
     "index.html": "/Squadbyte/index.html",
     "main.f24434cb.css.map": "/Squadbyte/static/css/main.f24434cb.css.map",
-    "main.ffcbd2f9.js.map": "/Squadbyte/static/js/main.ffcbd2f9.js.map",
+    "main.b22f6822.js.map": "/Squadbyte/static/js/main.b22f6822.js.map",
     "787.dcdbea49.chunk.js.map": "/Squadbyte/static/js/787.dcdbea49.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f24434cb.css",
-    "static/js/main.ffcbd2f9.js"
+    "static/js/main.b22f6822.js"
   ]
 }
