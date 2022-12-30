@@ -199,7 +199,7 @@ function MainContent(props) {
 
                     <Col >
                     <div >
-                        <img width="700" src={Display} alt="" />
+                        <img width="600" src={Display} alt="" />
                     </div>
                     </Col>
                 </Row>
@@ -207,10 +207,10 @@ function MainContent(props) {
             
 
             <div className='div-display'>
-                <Row className=''>
+                <Row className='grid-gapp'>
                     <Col >
                     <div className='shadow'>
-                    <video   width="700" height="500" loop="true" autoplay="true" muted>
+                    <video   width="600" height="500" loop="true" autoplay="true" muted>
                         <source src={Editor}  />
                     </video>
                     </div>
@@ -330,10 +330,10 @@ function MainContent(props) {
             <Container>
 
             <div style={{marginTop:'100px'}}>
-                <Row className=''>
+                <Row className='grid-gapp'>
                     <Col >
                     <div className='shadow'>
-                    <video   width="700" height="500" loop="true" autoplay="true" muted>
+                    <video   width="600" height="500" loop="true" autoplay="true" muted>
                         <source src={Editor}  />
                     </video>
                     </div>
