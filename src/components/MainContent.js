@@ -168,7 +168,7 @@ function MainContent(props) {
                 
 
             
-            <div style={{marginTop:'100px'}}>
+            <div className='div-display'>
                 <Row className='gx-4'>
                     <Col>
                     <h2 className='fs-1 fw-bold'>The best builder for non-techies</h2>

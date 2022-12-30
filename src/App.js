@@ -12,7 +12,7 @@ import Lifetimecarddata from './components/Lifetimecarddata';
 import Homepage from './components/Pages/Homepage';
 
 import RegisterPage from './components/Pages/RegisterPage';
-import NotFoundPage from './components/Pages/NotFoundPage';
+//import NotFoundPage from './components/Pages/NotFoundPage';
 
 
 // import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
