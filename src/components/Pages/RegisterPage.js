@@ -13,7 +13,7 @@ function RegisterPage() {
     <body className="Regbody">
 
   
-<Container className="">
+    <Container className="">
 
      <div className="d-flex justify-content-end"  >
         
@@ -22,7 +22,7 @@ function RegisterPage() {
         </Link>
     </div>
 
-    <div  className="d-flex justify-content-center ">
+    <div  className="d-flex justify-content-center mb-5">
            <img
               color="white"
               src={Logo}
@@ -35,7 +35,7 @@ function RegisterPage() {
    
     <Row className="vh-100 d-flex justify-content-center align-items-center ">
         
-    <Card style={{ width: '40rem', height: '35rem' }} className='shadow position-absolute mt-5'>
+    <Card style={{ width: '35rem', height: '30rem' }} className='shadow position-absolute mt-5'>
     <div className="d-flex justify-content-center  position-relative top-0 start-50 translate-middle">
             <Button className="w-25 p-3 btn-auth-register shadow-sm">Register</Button>
             <Button className="w-25 p-3 btn-auth-register-B shadow-sm">Login</Button>
@@ -68,6 +68,9 @@ function RegisterPage() {
     </Row>
     </Card>
     </Row>
+
+
+    
 </Container>
     </body>
   );
