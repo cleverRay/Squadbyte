@@ -1,18 +1,82 @@
+import React, { useState } from 'react';
 
 import './App.css';
-//import Footer from './Footer';
-import Navbar from './components/Navbar';
-import MainContent from './components/MainContent';
-import Footer from './components/Footer';
+
+
+
+import Pricingcard from './components/Pricingcard';
+import Pricingcarddata from './components/Pricingcarddata';
+import Lifetimepricing from './components/Lifetimepricing';
+import Lifetimecarddata from './components/Lifetimecarddata';
+
+import Homepage from './components/Pages/Homepage';
+
+import RegisterPage from './components/Pages/RegisterPage';
+import NotFoundPage from './components/Pages/NotFoundPage';
+
+
+// import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+
+import { Route, Routes } from "react-router-dom";
+import PriceList from './components/Pages/PriceList';
+
+
 
 
 function App() {
+
+  const [pricingToggle, setPricingToggle] = useState(true)
+
+
+    let PricingStorage = Pricingcarddata.map( (prices) => {
+        return <Pricingcard 
+                key={prices.id}
+                prices={prices}/>
+    })
+
+
+
+  let PricingLife = Lifetimecarddata.map( lifeprices => {
+      return <Lifetimepricing key={lifeprices.id}
+                          lifeprices={lifeprices}                   
+      />
+  })
+
+  let cardPricing;
+
+  if (pricingToggle) {
+    cardPricing = PricingStorage
+  } else {
+    cardPricing = PricingLife
+  }
+ 
+
+  function handleCategory() {
+   setPricingToggle(prevPricing => !prevPricing)
+  }
+
+
+
+
+  
+
+
+
+
   return (
+
     <div>
-      <Navbar/>
-      <MainContent/>
-      <Footer/>
+      
+      <Routes>
+      <Route path='/' element={ <Homepage PricingStorage={cardPricing} handleCategory={handleCategory} />} />
+      <Route path='/RegisterPage' element={ <RegisterPage/>} />
+      <Route path='/PriceList' element={ <PriceList PricingStorage={cardPricing} handleCategory={handleCategory} />} />
+      <Route path='*' element={<NotFoundPage/>}/>
+      
+      </Routes>
+      
     </div>
+   
   );
 }
 

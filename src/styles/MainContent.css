@@ -1,5 +1,14 @@
 
 
+.hero-body {
+
+    background-image: linear-gradient( #ffff, #bbc2f3);
+
+    /* background-image: linear-gradient(to bottom right, #18A0FB, #7e7ee4); */
+
+
+}
+
 .hero-div {
     margin-top: 100px;
 }
@@ -7,7 +16,8 @@
 font-weight: 700;
 font-size: 45px;
 line-height: 60px;
-color: #010947;
+color: #FFFFFF;
+margin-top: 120px;
 }
 
 .hero-text-span {
@@ -16,11 +26,11 @@ color: #010947;
 
 .hero-text-p {
     margin: 40px;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 14px;
     line-height: 17px;
     text-align: center;
-    color: #000000;
+    color: #FFFFFF;
 }
 
 .btn-getstarted {
@@ -34,6 +44,13 @@ color: #010947;
 
 .social-proof-img {
     width: 150px;
+}
+.grid-gapp {
+ column-gap: 100px;
+}
+
+.everyone {
+  font-size: 40px;
 }
 
 .social-proof-img-p {
@@ -59,23 +76,32 @@ color: #000000;
 
 ul {
     list-style: none;
-    font-size: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 50px;
+   
   }
+
+  
   
   ul li:before {
     content: '✓';
     color: #009933;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     margin-right: 10px;
    
   }
 
 
-/* .bullet-ul-li {
-    list-style: none;
+.bullet-ul-li {
+   
     font-size: 30px;
-} */
+    font-weight: normal;
+    margin-top: 50px;
+
+    
+}
 
 
 .div-display {
@@ -116,6 +142,7 @@ ul {
 .review-name {
     margin-top: 0px;
     line-height: 5px;
+    color: #0000FF;
 
 }
 
@@ -161,7 +188,7 @@ ul {
     
     
   
-    margin-top: 50px;
+    margin-top: 100px;
     text-align: center;
     font-weight: 450;
     font-size: 40px;
@@ -187,13 +214,22 @@ ul {
     color: #000000;
 }
 
+.btn-flat-BB {
+  font-weight: 600;
+  color:white !important;
+  
+  border-color: #FFFFFF !important;
+
+
+}
+
 .btn-flat {
     font-weight: 600;
     color:white !important;
     
-    border-color: #010947 !important;
+    border-color: #18A0FB !important;
     /* border-radius: .5rem !important; */
-    background-color:  #010947 !important;
+    background-color: #18A0FB !important;
     /* --bs-btn-hover-color: var(--bs-white);
     --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
     --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
@@ -203,21 +239,28 @@ ul {
     --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)}; */
   }
 
-  .btn-flat:hover {
+  .btn-flat:hover,.btn-flat-BB:hover {
     color: #FFFFFF !important;
-    background-color: #051799 !important;
+    background-color: #18A0FB !important;
   }
 
   .btn-flat-B {
 
     border-color: #010947 !important;
     color: #010947 !important;
+    
 
+  }
+  .Header-list{
+    font-weight: bold;
+    width: 450px;
+    margin-top: 20px;
   }
 
   .btn-flat-B:hover {
-    background-color: #051799 !important;
+    background-color: #18A0FB !important;
     color: #FFFFFF !important;
+    border-color: #18A0FB !important;
   }
 
   .button-placing {
@@ -251,14 +294,16 @@ ul {
 
   .bar-coloor {
     height: 100%;
-    background-color: #D9D9D9;
+    background-color: #010947;
     padding: 100px;
     margin-top: 50px;
   }
 
   .bar-coloor-B {
-    padding: 5px 0px 5px 0px;
-    margin-top: -15px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
   }
 /* 
 .hero-text {

@@ -1,0 +1,38 @@
+
+  .Regbody {
+    /* background-image: linear-gradient(to bottom right, #ecedf5, #7e7ee4); */
+
+    background-color: #010947;
+
+    /* background-image: linear-gradient(to bottom right, #18A0FB, #7e7ee4); */
+}
+
+.btn-flat-R {
+
+    border-color: #fa057f !important;
+    background-color: #fa057f !important;
+    color: #FFFFFF !important;
+    margin-top: 10px;
+
+    border-radius: 100px !important;
+
+  }
+
+  .btn-flat-R:hover {
+    background-color: #051799 !important;
+    color: #FFFFFF !important;
+    border-color: #051799 !important;
+  }
+
+  .btn-auth-register {
+    border-color: white !important;
+    border-radius: 50px 0px 0px 50px !important;
+    background-color: white !important;
+    color: #051799 !important;
+  }
+
+  .btn-auth-register-B {
+    border-radius: 0px 50px 50px 0px !important;
+    background-color: #051799 !important; 
+    border-color: #051799 !important;
+  }

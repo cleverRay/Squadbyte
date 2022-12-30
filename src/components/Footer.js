@@ -78,14 +78,14 @@ function Footer() {
                 
                 </Col>
             </Row>
-            
+            <p className=''>Designed by Squadinventive 2022</p>
         </Container>
 
-        <Container fluid className='bar-coloor bar-coloor-B'>
+        {/* <Container fluid className=''>
         <Container>
         <p className='fw-bold mt-3'>Designed by Squadinventive 2022</p>
         </Container>
-        </Container>
+        </Container> */}
         </>
         
     )

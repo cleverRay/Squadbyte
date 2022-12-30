@@ -1,28 +1,25 @@
 
 
 .btn-pricing {
-    border-radius: 100px !important;
-    padding: 10px !important;
+    
+    /* border-radius: 100px !important; */
+    
     width: 200px;
+
+    border-radius: 50px 0px 0px 50px !important;
 }
 
 .btn-pricing-B {
-    border-radius: 100px !important;
-    padding: 10px !important;
+    /* border-radius: 100px !important; */
+   
     width: 200px;
-    
+    border-radius: 0px 50px 50px 0px !important;
     
 
-    position: absolute;
+    /* position: absolute;
     left: -50px;
-    top: 0px;
-
-    /* background-color: red; */
+    top: 0px; */
     color: white;
 }
 
 
-.button-placing {
-    position: relative;
-     right: 1px;
-  }

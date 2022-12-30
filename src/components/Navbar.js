@@ -5,6 +5,8 @@ import '../styles/Navbar.css';
 import {Button, Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 
+//import {Link} from 'react-router-dom'
+
 
 function CollapsibleExample() {
   return (
@@ -13,14 +15,14 @@ function CollapsibleExample() {
         <Navbar.Brand href="#home">
         <img
               src={Logo}
-              width="160"
+              width=""
               // height="100"
               className="d-inline-block align-top"
               alt="Squadbyte logo"
             />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
+        <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end fs-5'>
           <Nav className="">
             <Nav.Link href="#features">How it works</Nav.Link>
             <Nav.Link href="#pricing">Features</Nav.Link>
@@ -37,11 +39,13 @@ function CollapsibleExample() {
             </NavDropdown>
           </Nav>
           </Navbar.Collapse>
-          <Navbar.Collapse className='justify-content-end'>
+          <Navbar.Collapse className='justify-content-end fs-5'>
           <Nav>
-            <Nav.Link href="#deets">Login</Nav.Link>
+            <Nav.Link href="/RegisterPage">
+                 Login         {/* <Link to="/RegisterPage" className='fs-5'>Login</Link> */}
+            </Nav.Link>
           </Nav>
-          <Button className='btn-flat'> Pricing</Button>
+          <Button className='btn-flat-B fs-5 fw-semibold ms-4' variant="outline-primary" href="/PriceList"> Pricing</Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>
