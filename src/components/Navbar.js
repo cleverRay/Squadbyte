@@ -42,7 +42,7 @@ function CollapsibleExample() {
           <Navbar.Collapse className='justify-content-end fs-5'>
           <Nav>
             <Nav.Link href="/Squadbyte/RegisterPage">
-                 Login         {/* <Link to="/RegisterPage" className='fs-5'>Login</Link> */}
+                 Logi         {/* <Link to="/RegisterPage" className='fs-5'>Login</Link> */}
             </Nav.Link>
           </Nav>
           <Button className='btn-flat-B fs-5 fw-normal ms-4' variant="outline-primary" href="/Squadbyte/PriceList"> Pricing</Button>
