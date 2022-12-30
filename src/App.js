@@ -68,7 +68,7 @@ function App() {
     <div>
       
       <Routes>
-      <Route path='/' element={ <Homepage PricingStorage={cardPricing} handleCategory={handleCategory} />} />
+      <Route path='/Squadbyte' element={ <Homepage PricingStorage={cardPricing} handleCategory={handleCategory} />} />
       <Route path='/RegisterPage' element={ <RegisterPage/>} />
       <Route path='/PriceList' element={ <PriceList PricingStorage={cardPricing} handleCategory={handleCategory} />} />
       <Route path='*' element={<NotFoundPage/>}/>

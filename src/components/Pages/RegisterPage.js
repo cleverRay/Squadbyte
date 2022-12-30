@@ -17,7 +17,7 @@ function RegisterPage() {
 
      <div className="d-flex justify-content-end"  >
         
-        <Link to="/">
+        <Link to="/Squadbyte">
         <HouseDoorFill className="mt-3" size={40}  color="white"/>
         </Link>
     </div>
