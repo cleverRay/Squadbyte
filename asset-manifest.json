@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Squadbyte/static/css/main.dac6f859.css",
-    "main.js": "/Squadbyte/static/js/main.db8b4f01.js",
-    "static/js/787.dcdbea49.chunk.js": "/Squadbyte/static/js/787.dcdbea49.chunk.js",
-    "static/media/hero-vid-final-RF26.mp4": "/Squadbyte/static/media/hero-vid-final-RF26.e8090b1a788f122a7f23.mp4",
-    "static/media/editor.mp4": "/Squadbyte/static/media/editor.0514b5d08e08997c696b.mp4",
-    "static/media/image-display-2.png": "/Squadbyte/static/media/image-display-2.9693d01bec19b2252d62.png",
-    "static/media/image-display.png": "/Squadbyte/static/media/image-display.47eefd49ed8c608461c9.png",
-    "static/media/big-building.png": "/Squadbyte/static/media/big-building.ac8f7935a1a766d8f05c.png",
-    "static/media/designer.png": "/Squadbyte/static/media/designer.85972c67fdb379326bf1.png",
-    "static/media/Procurement-hero.png": "/Squadbyte/static/media/Procurement-hero.5c2c5e3d9d608f9cb70a.png",
-    "index.html": "/Squadbyte/index.html",
-    "main.dac6f859.css.map": "/Squadbyte/static/css/main.dac6f859.css.map",
-    "main.db8b4f01.js.map": "/Squadbyte/static/js/main.db8b4f01.js.map",
-    "787.dcdbea49.chunk.js.map": "/Squadbyte/static/js/787.dcdbea49.chunk.js.map"
+    "main.css": "/static/css/main.dac6f859.css",
+    "main.js": "/static/js/main.57e66a1f.js",
+    "static/js/787.dcdbea49.chunk.js": "/static/js/787.dcdbea49.chunk.js",
+    "static/media/hero-vid-final-RF26.mp4": "/static/media/hero-vid-final-RF26.e8090b1a788f122a7f23.mp4",
+    "static/media/editor.mp4": "/static/media/editor.0514b5d08e08997c696b.mp4",
+    "static/media/image-display-2.png": "/static/media/image-display-2.9693d01bec19b2252d62.png",
+    "static/media/image-display.png": "/static/media/image-display.47eefd49ed8c608461c9.png",
+    "static/media/big-building.png": "/static/media/big-building.ac8f7935a1a766d8f05c.png",
+    "static/media/designer.png": "/static/media/designer.85972c67fdb379326bf1.png",
+    "static/media/Procurement-hero.png": "/static/media/Procurement-hero.5c2c5e3d9d608f9cb70a.png",
+    "index.html": "/index.html",
+    "main.dac6f859.css.map": "/static/css/main.dac6f859.css.map",
+    "main.57e66a1f.js.map": "/static/js/main.57e66a1f.js.map",
+    "787.dcdbea49.chunk.js.map": "/static/js/787.dcdbea49.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dac6f859.css",
-    "static/js/main.db8b4f01.js"
+    "static/js/main.57e66a1f.js"
   ]
 }
