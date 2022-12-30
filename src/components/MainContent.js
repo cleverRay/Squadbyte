@@ -116,7 +116,7 @@ function MainContent(props) {
                     <p className='fs-5'>Use the intuitive drag and drop website builder to create websites fast and easy. 
                         Design pages you always wanted in a hassle-free way.</p>
                         <p className='fs-5 mt-4'>SquadByte empowers you to build professional sites using a full WordPress page builder, 
-                            templates, blocks, elements, and extensions.<br/> No coding skills required.</p>
+                            templates, blocks, elements, and extensions. No coding skills required.</p>
                     </div>
 
 
@@ -124,21 +124,21 @@ function MainContent(props) {
                     <Row className=''>
                         <Col style={{backgroundColor:'#abb8c3'}} className='p-5'>
                         <div className=''>
-                        <h2 className='fs-1 fw-bold' style={{color: 'white'}}>Developers & Agencies</h2>
+                        <h2 className='fs-2 fw-bold' style={{color: 'white'}}>Developers & Agencies</h2>
                         <p className='fs-5 mt-3' style={{color: 'white'}}>The only tool you need to speed up your Website project delivery. Squadbyte gives absolute freedom when working with custom CSS
                          or JavaScript, developing custom elements, controlling access, and building complete layouts.</p>
 
                          <Button className='btn-lg p-3 mt-2 btn-flat-BB' variant="outline-primary" style={{color:'white'}}>Learn More</Button>
 
                          <div className='text-center'>
-                        <img width="300"  src={BigBuilding} alt="" />
+                        <img width="250"  src={BigBuilding} alt="" />
                         </div>
                         
                         </div>
                         </Col>
 
                         <Col style={{backgroundColor: '#222'}} className='p-5' >
-                        <h2 className='fs-1 fw-bold' style={{color: 'white'}}>Designers</h2>
+                        <h2 className='fs-2 fw-bold' style={{color: 'white'}}>Designers</h2>
                         <p className='fs-5 mt-3' style={{color: 'white'}}>Design professional-looking and pixel-perfect pages with a code-free design solution. 
                         We have the most feature-rich design controls to bring your project to life.</p>
 
@@ -152,7 +152,7 @@ function MainContent(props) {
                     <Row className='' style={{backgroundColor:'#e8b647'}} >
                         <Col >
                         <div className=''>
-                        <img width="700" src={Business} alt="" />
+                        <img width="500" src={Business} alt="" />
                         </div>
                         </Col>
 
@@ -177,14 +177,14 @@ function MainContent(props) {
                     <div>
                         <Row className='mt-2'>
                         <Col>
-                            <ul className='fs-5 fw-normal'>
+                            <ul className=''>
                                 <li>Drag & Drop builder</li>
                                 <li>Global Colors & Fonts</li>
                                 <li>Fully Responsive</li>    
                             </ul>
                         </Col>
                         <Col>
-                            <ul className='fs-5 fw-normal'>
+                            <ul className=''>
                                 <li>Visual editing (no code)</li>
                                 <li>36+ Powerful Elements</li>
                                 <li>Clean code & optimised</li>    
@@ -207,7 +207,7 @@ function MainContent(props) {
             
 
             <div className='div-display'>
-                <Row className='grid-gapp'>
+                <Row className=''>
                     <Col >
                     <div className='shadow'>
                     <video   width="700" height="500" loop="true" autoplay="true" muted>
@@ -217,7 +217,7 @@ function MainContent(props) {
                     </Col>
 
                     <Col >
-                    <h2 className='fs-1 fw-bold'>Design responsive websites. Good look on any device – guaranteed.</h2>
+                    <h2 className='fs-2 fw-bold'>Design responsive websites. Good look on any device – guaranteed.</h2>
                     <p className='fs-5 mt-3'>SquadByte provides powerful features for website <br/> making and editing in a super simple manner.</p>
     
                     <Button className='btn-lg p-3 mt-3 btn-flat'>Learn More</Button>
@@ -229,7 +229,7 @@ function MainContent(props) {
             <div className='div-display'>
                 <Row>
                     <Col>
-                    <h2 className='fs-1 fw-bold' >100+ design templates, beautiful & mobile perfect</h2>
+                    <h2 className='fs-2 fw-bold' >100+ design templates, beautiful & mobile perfect</h2>
                     <ul className='bullet-ul-li'>
                         <li>Business</li>
                         <li>Sport & Travel</li>
@@ -330,7 +330,7 @@ function MainContent(props) {
             <Container>
 
             <div style={{marginTop:'100px'}}>
-                <Row className='grid-gapp'>
+                <Row className=''>
                     <Col >
                     <div className='shadow'>
                     <video   width="700" height="500" loop="true" autoplay="true" muted>
