@@ -22,7 +22,7 @@ function RegisterPage() {
         </Link>
     </div>
 
-    <div  className="d-flex justify-content-center mb-5">
+    <div  className="d-flex justify-content-center mb-3">
            <img
               color="white"
               src={Logo}
